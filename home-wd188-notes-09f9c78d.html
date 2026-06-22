@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>wd188 · 稳定入口说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f7f5f1;
+      color: #2d2b28;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* 标题层级 */
+    h1 {
+      font-weight: 450;
+      font-size: 2.2rem;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+      margin: 0 0 1rem;
+      color: #1f1d1a;
+    }
+
+    .subhead {
+      font-size: 1.05rem;
+      color: #6b6762;
+      border-left: 3px solid #b8a697;
+      padding-left: 1.1rem;
+      margin-bottom: 2.8rem;
+    }
+
+    h2 {
+      font-weight: 440;
+      font-size: 1.5rem;
+      margin: 2.8rem 0 0.8rem;
+      letter-spacing: -0.005em;
+      color: #2b2825;
+    }
+
+    h3 {
+      font-weight: 460;
+      font-size: 1.15rem;
+      margin: 1.6rem 0 0.5rem;
+      color: #3f3b36;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      color: #3a3632;
+    }
+
+    a {
+      color: #8b5e3c;
+      text-decoration: none;
+      border-bottom: 1px solid #d9cdc0;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      border-bottom-color: #8b5e3c;
+      color: #5f3f26;
+    }
+
+    .hero-box {
+      background: #f0ece6;
+      padding: 2rem 1.8rem;
+      border-radius: 28px;
+      margin: 1.8rem 0 2.5rem;
+    }
+
+    .hero-box p {
+      margin-bottom: 0.4rem;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem 2rem;
+      margin: 1.5rem 0 0.8rem;
+    }
+
+    .feature-item {
+      flex: 1 1 180px;
+      background: #fffcf8;
+      padding: 1.2rem 1.2rem 1.4rem;
+      border-radius: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+      border: 1px solid #e7dfd6;
+    }
+
+    .feature-item strong {
+      display: block;
+      font-weight: 520;
+      font-size: 1.05rem;
+      margin-bottom: 0.25rem;
+      color: #2b2825;
+    }
+
+    .feature-item span {
+      font-size: 0.94rem;
+      color: #5b5650;
+    }
+
+    .use-card {
+      background: #fffaf5;
+      border-radius: 24px;
+      padding: 1.6rem 1.8rem 1.8rem;
+      margin: 2rem 0 1.2rem;
+      border: 1px solid #e5dbd0;
+    }
+
+    .use-card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .use-card li {
+      padding: 0.4rem 0 0.4rem 1.5rem;
+      position: relative;
+      color: #3e3a35;
+    }
+
+    .use-card li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: #a5927e;
+    }
+
+    .faq-box {
+      border-top: 1px solid #e0d6ca;
+      margin-top: 3.5rem;
+      padding-top: 1.8rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.4rem;
+    }
+
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.15rem;
+      color: #2f2c28;
+    }
+
+    .faq-item p {
+      margin-bottom: 0;
+      font-size: 0.96rem;
+      color: #4f4a44;
+    }
+
+    .note-line {
+      font-size: 0.9rem;
+      color: #7a746d;
+      padding: 0.6rem 0 0;
+      border-top: 1px solid #e7e0d8;
+      margin-top: 2.2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    @media (max-width: 500px) {
+      .page {
+        padding: 2rem 1.2rem 4rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .hero-box {
+        padding: 1.5rem 1.2rem;
+      }
+      .feature-item {
+        flex: 1 1 100%;
+      }
+      .use-card {
+        padding: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <h1>wd188 · 一条稳定的路径</h1>
+  <div class="subhead">入口说明 · 产品式摘要 · 使用建议</div>
+
+  <p>在信息流动越来越快的今天，一个可靠、可记忆的地址本身就是一种资产。<strong>wd188</strong> 的设计初衷不是为了制造新鲜感，而是想成为一个长久、安静的起点——你不需要频繁确认它是否还在，也不需要绕路去找它。</p>
+
+  <div class="hero-box">
+    <p>这个页面不是入口本身，而是关于 <strong><a href="https://home-wd188.com">wd188</a></strong> 的一份简短说明书：它是什么、适合哪些场景、以及如何更稳定地使用它。</p>
+  </div>
+
+  <h2>它提供的几个基本能力</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>统一的起点</strong>
+      <span>避免在不同渠道间反复寻找，记住一个地址就可以。</span>
+    </div>
+    <div class="feature-item">
+      <strong>低变动的结构</strong>
+      <span>页面布局和核心导航不会频繁改动，减少适应成本。</span>
+    </div>
+    <div class="feature-item">
+      <strong>直白的命名</strong>
+      <span>没有复杂前缀或变体，就是 <strong>wd188</strong>，好记、好写。</span>
+    </div>
+    <div class="feature-item">
+      <strong>不做过多的承诺</strong>
+      <span>它只是一个位置，剩下的取决于你如何使用它。</span>
+    </div>
+  </div>
+
+  <h2>常见的使用场景</h2>
+  <div class="use-card">
+    <ul>
+      <li><strong>日常浏览的起点</strong> – 把 <strong>wd188</strong> 放在书签栏的第一个位置，每天从同一个地方开始。</li>
+      <li><strong>向他人推荐时</strong> – 如果你觉得某个资源或服务值得分享，直接给一个稳定地址比反复解释路径更高效。<a href="https://home-wd188.com">wd188</a> 就属于这种类型，说一遍就够了。</li>
+      <li><strong>作为备份索引</strong> – 在主渠道不稳定时，它提供一个不依赖临时连接的备用参照。</li>
+      <li><strong>轻量信息整合</strong> – 不需要安装软件或注册，通过这个地址就能接触到整理后的信息结构。</li>
+    </ul>
+  </div>
+
+  <h2>使用建议 · 保持稳定的几个细节</h2>
+  <p>任何在线地址都可能受网络环境、域名解析或运营商策略影响。如果你发现 <strong>wd188</strong> 访问变慢或无法加载，可以尝试以下方法：</p>
+  <p>—— 检查本地网络是否正常，切换 DNS 到公共服务器（如 1.1.1.1 或 8.8.8.8）通常能解决解析问题。<br>
+  —— 避免通过第三方跳转链接访问，尽量直接输入 <strong>wd188</strong> 对应的完整地址。<br>
+  —— 如果临时无法打开，可以间隔一段时间再试，不必反复刷新。</p>
+  <p>这些建议同样适用于大多数类似的站点，并非 <strong>wd188</strong> 独有的问题，只是作为使用习惯提出来。</p>
+
+  <h2>FAQ 摘要</h2>
+  <div class="faq-box">
+    <div class="faq-item">
+      <strong>wd188 是一个产品吗？</strong>
+      <p>它是一个稳定入口，更像一个索引或容器。你通过它获取的是内容本身，而不是一个需要下载的软件。</p>
+    </div>
+    <div class="faq-item">
+      <strong>访问 wd188 需要特殊的工具吗？</strong>
+      <p>不需要。使用任何现代浏览器，输入 <a href="https://home-wd188.com">wd188</a> 即可。无需安装插件，也无需注册。</p>
+    </div>
+    <div class="faq-item">
+      <strong>为什么强调“入口”这个词？</strong>
+      <p>因为它不是终点，而是起点。你只需要记住它，之后想去哪里由你自己决定。</p>
+    </div>
+  </div>
+
+  <div class="note-line">
+    <span>内容说明：仅供了解 wd188 的基本定位</span>
+    <span>页面版本 · 2025</span>
+  </div>
+
+</div>
+</body>
+</html>
